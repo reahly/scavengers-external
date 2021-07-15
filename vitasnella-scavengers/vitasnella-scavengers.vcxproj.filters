@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="header files\gui">
+      <UniqueIdentifier>{13c3813b-60a4-4029-9363-b93b467acf01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\gui">
+      <UniqueIdentifier>{025e71f8-d799-46e8-954b-c264c4858cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\gui\library">
+      <UniqueIdentifier>{bfacf889-7168-4c99-bd18-7a9111c1a2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\memory">
+      <UniqueIdentifier>{e375d48e-d3e2-4b90-b548-721e04afc60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\overlay">
+      <UniqueIdentifier>{1b569bc0-7f08-4967-9a8a-d0b23a419842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\overlay">
+      <UniqueIdentifier>{c70f1382-ead2-48a7-8e6a-412d24fb00ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\utils">
+      <UniqueIdentifier>{98ce9a3f-3283-4510-8f03-9bb275245700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\utils">
+      <UniqueIdentifier>{36aa65a0-c6af-4d2d-8c34-48178697ec29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\classes">
+      <UniqueIdentifier>{2c842f3e-910e-4d16-93be-389e8a79b5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\classes">
+      <UniqueIdentifier>{39a65fb4-d3fa-48e2-a249-67c8fb5adbeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\features">
+      <UniqueIdentifier>{26855970-77bf-401f-a852-bade2c8c7d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\features">
+      <UniqueIdentifier>{aced7a1e-86e1-4b1d-a80d-59358ddfe8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\config">
+      <UniqueIdentifier>{89c22efa-8bd4-43bf-aac2-b9933af18ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\config">
+      <UniqueIdentifier>{1ec6ef92-d95f-4ae3-b0b4-53c1ac7ec6fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui.cpp">
+      <Filter>source files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\library\imgui_demo.cpp">
+      <Filter>header files\gui\library</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\library\imgui_draw.cpp">
+      <Filter>header files\gui\library</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\library\imgui_impl_dx9.cpp">
+      <Filter>header files\gui\library</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\library\imgui_impl_win32.cpp">
+      <Filter>header files\gui\library</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\library\imgui_tables.cpp">
+      <Filter>header files\gui\library</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\library\imgui_widgets.cpp">
+      <Filter>header files\gui\library</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\library\imgui.cpp">
+      <Filter>header files\gui\library</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\overlay.cpp">
+      <Filter>source files\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\render.cpp">
+      <Filter>source files\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>source files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\structs.cpp">
+      <Filter>source files\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="config\config.cpp">
+      <Filter>source files\config</Filter>
+    </ClCompile>
+    <ClCompile Include="features\esp.cpp">
+      <Filter>source files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\aimbot.cpp">
+      <Filter>source files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="features\misc.cpp">
+      <Filter>source files\features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gui\gui.hh">
+      <Filter>header files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\library\imgui_impl_dx9.h">
+      <Filter>header files\gui\library</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\library\imgui_impl_win32.h">
+      <Filter>header files\gui\library</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\library\imgui_internal.h">
+      <Filter>header files\gui\library</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\library\imstb_rectpack.h">
+      <Filter>header files\gui\library</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\library\imstb_textedit.h">
+      <Filter>header files\gui\library</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\library\imstb_truetype.h">
+      <Filter>header files\gui\library</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\library\imconfig.h">
+      <Filter>header files\gui\library</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\library\imgui.h">
+      <Filter>header files\gui\library</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\driver.hh">
+      <Filter>header files\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\overlay.hh">
+      <Filter>header files\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\render.hh">
+      <Filter>header files\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.hh">
+      <Filter>header files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\vector.hh">
+      <Filter>header files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\structs.hh">
+      <Filter>header files\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="config\config.hh">
+      <Filter>header files\config</Filter>
+    </ClInclude>
+    <ClInclude Include="features\esp.hh">
+      <Filter>header files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\aimbot.hh">
+      <Filter>header files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="features\misc.hh">
+      <Filter>header files\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
